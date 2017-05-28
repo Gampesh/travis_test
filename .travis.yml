@@ -6,4 +6,4 @@ before_install:
     - sudo apt-get install python-setuptools
 
 install:
-    - python math.py
+    - python test_math_op.py
