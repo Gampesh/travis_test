@@ -1,8 +1,9 @@
-sudo: required
+sudo: required 
 language: python
-before_install:
-   - sudo apt-get update
-   - sudo apt-get install python-pytest, python-setuptools
-install:
-   - python math.py
 
+before_install:
+    - sudo apt-get update
+    - sudo apt-get install python-setuptools
+
+install:
+    - python math.py
